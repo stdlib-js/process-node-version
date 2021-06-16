@@ -45,7 +45,7 @@ tape( 'if running in a Node.js process, the main export is a string; otherwise, 
 
 tape( 'if not running in a Node.js process, the main export is `null`', function test( t ) {
 	var VERSION = proxyquire( './../lib', {
-		'@stdlib/assert/is-node': false
+		'@stdlib/assert-is-node': false
 	});
 	t.equal( VERSION, null, 'exports null' );
 	t.end();
