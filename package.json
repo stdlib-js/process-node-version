@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/process-node-version",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Node version.",
   "license": "Apache-2.0",
   "author": {
