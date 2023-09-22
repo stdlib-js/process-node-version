@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import NODE_VERSION from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-node-version@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/process-node-version/tags). For example,
+
+```javascript
 import NODE_VERSION from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-node-version@v0.1.0-esm/index.mjs';
 ```
 
@@ -81,7 +86,7 @@ console.log( NODE_VERSION );
 <script type="module">
 
 var semver = require( 'semver' );
-import NODE_VERSION from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-node-version@v0.1.0-esm/index.mjs';
+import NODE_VERSION from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-node-version@esm/index.mjs';
 
 if ( semver.lt( NODE_VERSION, '1.0.0' ) ) {
     console.log( 'Running on a pre-io.js version...' );
