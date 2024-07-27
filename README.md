@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import NODE_VERSION from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-node-version@deno/mod.js';
+import NODE_VERSION from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-node-version@v0.2.2-deno/mod.js';
 ```
 
 #### NODE_VERSION
@@ -76,7 +76,7 @@ console.log( NODE_VERSION );
 
 ```javascript
 var semver = require( 'semver' );
-import NODE_VERSION from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-node-version@deno/mod.js';
+import NODE_VERSION from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-node-version@v0.2.2-deno/mod.js';
 
 if ( semver.lt( NODE_VERSION, '1.0.0' ) ) {
     console.log( 'Running on a pre-io.js version...' );
