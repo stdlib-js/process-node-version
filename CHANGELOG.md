@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-05-05)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2ae311a`](https://github.com/stdlib-js/stdlib/commit/2ae311a896c73c5b28cb9aa2652cab8adb4dd308) - **docs:** add `@example` JSDoc tag in `process/node-version` [(#11948)](https://github.com/stdlib-js/stdlib/pull/11948) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-07)
