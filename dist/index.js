@@ -1,9 +1,9 @@
-"use strict";var e=function(c,r){return function(){return r||c((r={exports:{}}).exports,r),r.exports}};var i=e(function(N,t){
-var p=require("process");t.exports=p
-});var u=e(function(O,o){
-var q=i(),n=q.versions.node;o.exports=n
-});var a=e(function(S,v){
+"use strict";var e=function(c,r){return function(){try{return r||c((r={exports:{}}).exports,r),r.exports}catch(p){throw (r=0, p)}};};var i=e(function(O,t){
+var q=require("process");t.exports=q
+});var u=e(function(S,o){
+var n=i(),x=n.versions.node;o.exports=x
+});var a=e(function(d,v){
 v.exports=null
-});var x=require('@stdlib/assert-is-node/dist'),l=u(),E=a(),s;x?s=l:s=E;module.exports=s;
+});var l=require('@stdlib/assert-is-node/dist'),E=u(),I=a(),s;l?s=E:s=I;module.exports=s;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
